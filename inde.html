@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardesto | Learn Web Technologies</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <div class="container">
+    
+
+    <a class="navbar-brand fw-bold" href="#">
+      <span class="brand-highlight">Card</span>esto
+    </a>
+
+  
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+ 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+      </ul>
+
+      <form class="d-flex align-items-center">
+        <input
+          class="form-control search-input me-2"
+          type="search"
+          placeholder="Search cards..."
+        />
+        <button class="btn btn-glow" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<!--  HERO SECTION  -->
+<header class="hero-section">
+  <div class="container text-center">
+    <h1>Learn Modern Web Technologies</h1>
+    <p>HTML, CSS, JavaScript & Python — all in one place</p>
+    <a href="#cards" class="btn btn-light mt-3">Explore Now</a>
+  </div>
+</header>
+<!-- card section -->
+<section class="container my-5" id="cards">
+  <div class="text-center mb-5">
+    <h2 class="section-title">Our Popular Technologies</h2>
+    <p class="section-subtitle">
+      Learn industry-ready skills with clean and practical examples
+    </p>
+  </div>
+
+
+  <div class="row g-4">
+
+    <!-- CARD 1 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card tech-card h-100">
+        <div class="img-wrapper">
+          <img src="img/image1.jpg" class="card-img-top" alt="HTML" />
+        </div>
+        <div class="card-body">
+          <span class="badge bg-primary mb-2">Markup</span>
+          <h5 class="card-title">HTML</h5>
+          <p class="card-text">
+            Build the structure of modern web pages using semantic HTML.
+          </p>
+          <a href="#" class="btn btn-outline-primary">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card tech-card h-100">
+        <div class="img-wrapper">
+          <img src="img/image2.jpg" class="card-img-top" alt="CSS" />
+        </div>
+        <div class="card-body">
+          <span class="badge bg-success mb-2">Styling</span>
+          <h5 class="card-title">CSS</h5>
+          <p class="card-text">
+            Design beautiful, responsive layouts with modern CSS.
+          </p>
+          <a href="#" class="btn btn-outline-success">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card tech-card h-100">
+        <div class="img-wrapper">
+          <img src="img/image3.jpg" class="card-img-top" alt="JavaScript" />
+        </div>
+        <div class="card-body">
+          <span class="badge bg-warning text-dark mb-2">Logic</span>
+          <h5 class="card-title">JavaScript</h5>
+          <p class="card-text">
+            Add interactivity and logic to your web applications.
+          </p>
+          <a href="#" class="btn btn-outline-warning">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card tech-card h-100">
+        <div class="img-wrapper">
+          <img src="img/image4.jpg" class="card-img-top" alt="Python" />
+        </div>
+        <div class="card-body">
+          <span class="badge bg-info text-dark mb-2">Backend</span>
+          <h5 class="card-title">Python</h5>
+          <p class="card-text">
+            Power backend, data science, and automation with Python.
+          </p>
+          <a href="#" class="btn btn-outline-info">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card tech-card h-100">
+        <div class="img-wrapper">
+          <img src="img/image2.jpg" class="card-img-top" alt="React" />
+        </div>
+        <div class="card-body">
+          <span class="badge bg-danger mb-2">Frontend</span>
+          <h5 class="card-title">React</h5>
+          <p class="card-text">
+            Build fast and scalable UI using React components.
+          </p>
+          <a href="#" class="btn btn-outline-danger">Know More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card tech-card h-100">
+        <div class="img-wrapper">
+          <img src="img/image3.jpg" class="card-img-top" alt="Node.js" />
+        </div>
+        <div class="card-body">
+          <span class="badge bg-dark mb-2">Server</span>
+          <h5 class="card-title">Node.js</h5>
+          <p class="card-text">
+            Build backend services using JavaScript and Node.js.
+          </p>
+          <a href="#" class="btn btn-outline-dark">Know More</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<section class="features-section" id="features">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="section-title">Why Choose Cardesto?</h2>
+      <p class="section-subtitle">
+        Everything you need to start your web development journey
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Feature Card 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h5>Fully Responsive</h5>
+          <p>
+            Optimized for mobile, tablet, and desktop devices using Bootstrap
+            grid system.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature Card 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h5>Modern UI</h5>
+          <p>
+            Clean layout, smooth hover effects and professional color palette.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature Card 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h5>Fast Performance</h5>
+          <p>
+            Lightweight design with optimized images and reusable components.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature Card 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon">📘</div>
+          <h5>Beginner Friendly</h5>
+          <p>
+            Simple explanations and clean structure for easy understanding.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature Card 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon">🛠️</div>
+          <h5>Real Projects</h5>
+          <p>
+            Practical examples to build real-world development skills.
+          </p>
+        </div>
+      </div>
+
+      <!-- Feature Card 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="feature-card">
+          <div class="feature-icon">🚀</div>
+          <h5>Career Focused</h5>
+          <p>
+            Designed to help you prepare for internships and placements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="row gy-4 text-center text-md-start">
+
+  
+      <div class="col-md-4">
+        <h5 class="footer-brand">Cardesto</h5>
+        <p class="footer-text">
+          A modern card gallery showcasing web technologies with clean UI and smooth experience.
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <h6 class="footer-title">Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#cards">Gallery</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h6 class="footer-title">Connect</h6>
+        <ul class="footer-links">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom text-center mt-4">
+      <p>© 2026 <span>Cardesto</span>. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
